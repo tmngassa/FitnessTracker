@@ -13,7 +13,7 @@ public class MinutesController {
 		
 		System.out.println("Execise Minutes: " + exercise.getMinutes());
 		
-		return "forwar:addMoreMinutes.html";
+		return "redirect:addMoreMinutes";
 	}
 	
 	@RequestMapping(value="/addMoreMinutes")
