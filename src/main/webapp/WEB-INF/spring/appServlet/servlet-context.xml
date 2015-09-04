@@ -24,4 +24,6 @@
 	<!-- Where you will start looking for annotation -->
 	<context:component-scan base-package="com.tmn.fitnesstracter" />
 	
+	<resources mapping="pdf" location="/pdf/**" />
+	
 </beans:beans>
